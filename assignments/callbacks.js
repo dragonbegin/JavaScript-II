@@ -59,7 +59,7 @@ function multiplyNums(x, y, cb) {
 const multiply = function(x, y) {
   return x * y;
 }
-console.log (sumNums(2,4,multiply));
+console.log (multiplyNums(2,4,multiply));
 
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
@@ -74,7 +74,6 @@ function contains(item, list, cb) {
 contains('Pencil', items, function(yesorno){
   console.log(yesorno);
 })
-
 
 
 /* STRETCH PROBLEM */
