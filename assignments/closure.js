@@ -33,8 +33,8 @@ console.log(newCounter()) // 5
 const counterFactory = () => {
   let count = 0;
   return {
-    increment: () => (++count),
-    decrement: () => (--count),
+    increment: () => ++count,
+    decrement: () => --count,
   };
 
   // Return an object that has two methods called `increment` and `decrement`.
